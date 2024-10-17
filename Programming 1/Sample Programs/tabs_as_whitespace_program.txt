@@ -1,0 +1,9 @@
+# Basic entity script using tabs as whitespace. Will cause lexical errors because only spaces are supported.
+cait:
+  name: "Cait"
+  attributes:
+	hp: 500
+	p_attack: 35
+	p_defense: 50
+  behavior:
+	ai_script: "behavior_cait"

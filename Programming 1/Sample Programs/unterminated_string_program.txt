@@ -1,0 +1,14 @@
+# Basic entity script with unterminated strings to trigger lexical errors.
+cait:
+  name: "Cait
+  attributes:
+    hp: 500
+    p_attack: 35
+    p_defense: 50
+  sprites:
+    idle: "cait_idl"
+    attack: "cait_atk
+    hurt: "cait_hrt
+    death: "cait_dth"
+  behavior:
+    ai_script: "behavior_cait

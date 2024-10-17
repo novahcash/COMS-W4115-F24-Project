@@ -1,0 +1,11 @@
+# Basic entity script with invalid float values to trigger lexical errors.
+chomper:
+  name: "Chomper"
+  attributes:
+    hp: 1530
+    p_attack: 35
+    p_defense: 50
+    m_atk: 48.922.
+    m_def: 53.
+  behavior:
+    ai_script: "behavior_chomper"
