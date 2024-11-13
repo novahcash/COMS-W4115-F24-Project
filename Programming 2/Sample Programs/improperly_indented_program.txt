@@ -1,0 +1,9 @@
+# Parsing will fail due to improper indentation (3 spaces instead of 2 for attributes, 1 space instead of 2 for beahvior)
+indented_cait:
+  name: "Indented Cait"
+  attributes:
+     hp: 500
+     p_attack: 35
+     p_defense: 50
+ behavior:
+   ai_script: "behavior_cait"

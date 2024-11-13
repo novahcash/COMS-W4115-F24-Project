@@ -1,0 +1,29 @@
+# This would not necessarily work in the completed language, but illustrates that many levels of nesting can be parsed
+nested_cait:
+	name: "Nested Cait"
+	stats:
+		physical:
+			hp: 1000
+			offensive:
+				p_atk: 100
+				p_atk_mod: 1.25
+			defensive:
+				p_def: 65
+				p_def_mod: 1.05
+		magical:
+			mp: 200
+			offensive:
+				m_atk: 75
+				m_atk_mod: 1.1
+			defensive:
+				m_def: 75
+				m_def_mod: 1.0
+	nest:
+		this:
+			is:
+				pointlessly:
+					nested:
+						for:
+							illustrative:
+								purposes:
+									message: "This is pointlessly nested for illustrative purposes"

@@ -1,0 +1,9 @@
+# Basic entity script containing all token types except floats
+cait:
+  name: "Cait"
+  attributes:
+    hp: 500
+    p_attack: 35
+    p_defense: 50
+  behavior:
+    ai_script: "behavior_cait"

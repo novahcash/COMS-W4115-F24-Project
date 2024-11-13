@@ -1,0 +1,378 @@
+Abstract Syntax Tree (AST):
+{
+    "type": "SCRIPT",
+    "body": [
+        {
+            "type": "ENTRY",
+            "key": {
+                "type": "KEY",
+                "value": "nested_cait"
+            },
+            "value": [
+                {
+                    "type": "INDENT"
+                },
+                {
+                    "type": "ENTRY",
+                    "key": {
+                        "type": "KEY",
+                        "value": "name"
+                    },
+                    "value": {
+                        "type": "STRING",
+                        "value": "Nested Cait"
+                    }
+                },
+                {
+                    "type": "ENTRY",
+                    "key": {
+                        "type": "KEY",
+                        "value": "stats"
+                    },
+                    "value": [
+                        {
+                            "type": "INDENT"
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "physical"
+                            },
+                            "value": [
+                                {
+                                    "type": "INDENT"
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "hp"
+                                    },
+                                    "value": {
+                                        "type": "INTEGER",
+                                        "value": "1000"
+                                    }
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "offensive"
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "INDENT"
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "p_atk"
+                                            },
+                                            "value": {
+                                                "type": "INTEGER",
+                                                "value": "100"
+                                            }
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "p_atk_mod"
+                                            },
+                                            "value": {
+                                                "type": "FLOAT",
+                                                "value": "1.25"
+                                            }
+                                        },
+                                        {
+                                            "type": "DEDENT"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "defensive"
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "INDENT"
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "p_def"
+                                            },
+                                            "value": {
+                                                "type": "INTEGER",
+                                                "value": "65"
+                                            }
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "p_def_mod"
+                                            },
+                                            "value": {
+                                                "type": "FLOAT",
+                                                "value": "1.05"
+                                            }
+                                        },
+                                        {
+                                            "type": "DEDENT"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DEDENT"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "magical"
+                            },
+                            "value": [
+                                {
+                                    "type": "INDENT"
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "mp"
+                                    },
+                                    "value": {
+                                        "type": "INTEGER",
+                                        "value": "200"
+                                    }
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "offensive"
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "INDENT"
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "m_atk"
+                                            },
+                                            "value": {
+                                                "type": "INTEGER",
+                                                "value": "75"
+                                            }
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "m_atk_mod"
+                                            },
+                                            "value": {
+                                                "type": "FLOAT",
+                                                "value": "1.1"
+                                            }
+                                        },
+                                        {
+                                            "type": "DEDENT"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "defensive"
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "INDENT"
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "m_def"
+                                            },
+                                            "value": {
+                                                "type": "INTEGER",
+                                                "value": "75"
+                                            }
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "m_def_mod"
+                                            },
+                                            "value": {
+                                                "type": "FLOAT",
+                                                "value": "1.0"
+                                            }
+                                        },
+                                        {
+                                            "type": "DEDENT"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DEDENT"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "DEDENT"
+                        }
+                    ]
+                },
+                {
+                    "type": "ENTRY",
+                    "key": {
+                        "type": "KEY",
+                        "value": "nest"
+                    },
+                    "value": [
+                        {
+                            "type": "INDENT"
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "this"
+                            },
+                            "value": [
+                                {
+                                    "type": "INDENT"
+                                },
+                                {
+                                    "type": "ENTRY",
+                                    "key": {
+                                        "type": "KEY",
+                                        "value": "is"
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "INDENT"
+                                        },
+                                        {
+                                            "type": "ENTRY",
+                                            "key": {
+                                                "type": "KEY",
+                                                "value": "pointlessly"
+                                            },
+                                            "value": [
+                                                {
+                                                    "type": "INDENT"
+                                                },
+                                                {
+                                                    "type": "ENTRY",
+                                                    "key": {
+                                                        "type": "KEY",
+                                                        "value": "nested"
+                                                    },
+                                                    "value": [
+                                                        {
+                                                            "type": "INDENT"
+                                                        },
+                                                        {
+                                                            "type": "ENTRY",
+                                                            "key": {
+                                                                "type": "KEY",
+                                                                "value": "for"
+                                                            },
+                                                            "value": [
+                                                                {
+                                                                    "type": "INDENT"
+                                                                },
+                                                                {
+                                                                    "type": "ENTRY",
+                                                                    "key": {
+                                                                        "type": "KEY",
+                                                                        "value": "illustrative"
+                                                                    },
+                                                                    "value": [
+                                                                        {
+                                                                            "type": "INDENT"
+                                                                        },
+                                                                        {
+                                                                            "type": "ENTRY",
+                                                                            "key": {
+                                                                                "type": "KEY",
+                                                                                "value": "purposes"
+                                                                            },
+                                                                            "value": [
+                                                                                {
+                                                                                    "type": "INDENT"
+                                                                                },
+                                                                                {
+                                                                                    "type": "ENTRY",
+                                                                                    "key": {
+                                                                                        "type": "KEY",
+                                                                                        "value": "message"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "type": "STRING",
+                                                                                        "value": "This is pointlessly nested for illustrative purposes"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "DEDENT"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "type": "DEDENT"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "DEDENT"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "DEDENT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "DEDENT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "DEDENT"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DEDENT"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "DEDENT"
+                        }
+                    ]
+                },
+                {
+                    "type": "DEDENT"
+                }
+            ]
+        }
+    ]
+}

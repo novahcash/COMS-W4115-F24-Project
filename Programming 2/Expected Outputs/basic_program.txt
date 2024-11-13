@@ -1,0 +1,106 @@
+Abstract Syntax Tree (AST):
+{
+    "type": "SCRIPT",
+    "body": [
+        {
+            "type": "ENTRY",
+            "key": {
+                "type": "KEY",
+                "value": "cait"
+            },
+            "value": [
+                {
+                    "type": "INDENT"
+                },
+                {
+                    "type": "ENTRY",
+                    "key": {
+                        "type": "KEY",
+                        "value": "name"
+                    },
+                    "value": {
+                        "type": "STRING",
+                        "value": "Cait"
+                    }
+                },
+                {
+                    "type": "ENTRY",
+                    "key": {
+                        "type": "KEY",
+                        "value": "attributes"
+                    },
+                    "value": [
+                        {
+                            "type": "INDENT"
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "hp"
+                            },
+                            "value": {
+                                "type": "INTEGER",
+                                "value": "500"
+                            }
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "p_attack"
+                            },
+                            "value": {
+                                "type": "INTEGER",
+                                "value": "35"
+                            }
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "p_defense"
+                            },
+                            "value": {
+                                "type": "INTEGER",
+                                "value": "50"
+                            }
+                        },
+                        {
+                            "type": "DEDENT"
+                        }
+                    ]
+                },
+                {
+                    "type": "ENTRY",
+                    "key": {
+                        "type": "KEY",
+                        "value": "behavior"
+                    },
+                    "value": [
+                        {
+                            "type": "INDENT"
+                        },
+                        {
+                            "type": "ENTRY",
+                            "key": {
+                                "type": "KEY",
+                                "value": "ai_script"
+                            },
+                            "value": {
+                                "type": "STRING",
+                                "value": "behavior_cait"
+                            }
+                        },
+                        {
+                            "type": "DEDENT"
+                        }
+                    ]
+                },
+                {
+                    "type": "DEDENT"
+                }
+            ]
+        }
+    ]
+}
