@@ -1,0 +1,15 @@
+# Basic entity script missing a lot of definitions, showing that defaults will be filled in
+cait:
+  name: "Cait"
+  attributes:
+    hp: 500
+    p_attack: 35
+    p_defense: 50
+  sprites:
+    move: "cait_mov"
+  behavior:
+    attacks:
+      poison:
+        damage_type: "magical"
+        target: "multi"
+        effect: "poison"

@@ -1,0 +1,31 @@
+# Example longer entity script from proposal. Contains all categories and most definitions
+chubby_cait:
+  name: "Chubby Cait"
+  attributes:
+    hp: 9999
+    p_attack: 75
+    m_attack: 95
+    p_defense: 50
+    m_defense: 70
+    speed: 45
+    level: 50
+    exp: 52000
+  sprites:
+    idle: "chubby_cait_idl"
+    attack: "chubby_cait_atk"
+    hurt: "chubby_cait_hrt"
+    death: "chubby_cait_dth"
+  behavior:
+    ai_script: "behavior_chubby_cait"
+    attacks:
+      basic:
+        damage_type: "physical"
+        target: "single"
+        modifier: 1
+      multi:
+        damage_type: "magical"
+        target: "row"
+        modifier: 0.75
+        mod_type: "multiplicative"
+        effect: "poison"
+        effect_chance: 0.15

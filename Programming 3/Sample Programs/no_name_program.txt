@@ -1,0 +1,14 @@
+# Basic entity script with no entity name. Demonstrates the only mandatory attribute and how it halts the generator.
+cait:
+  attributes:
+    hp: 500
+    p_attack: 35
+    p_defense: 50
+  sprites:
+    move: "cait_mov"
+  behavior:
+    attacks:
+      poison:
+        damage_type: "magical"
+        target: "multi"
+        effect: "poison"

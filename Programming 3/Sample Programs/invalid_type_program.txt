@@ -1,0 +1,15 @@
+# Basic program with several invalid types, showing how type errors halt code generation
+cait:
+  name: "Cait"
+  attributes:
+    hp: 500.25
+    p_attack: "big"
+    p_defense: "small"
+  sprites:
+    move: 23
+  behavior:
+    attacks:
+      poison:
+        damage_type: 2
+        target: "multi"
+        effect: 1.5
